@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  padding: 0 5vw;
+  display: flex;
+  gap: 10vw;
+}
+main section {
+  flex: 1;
+}
+
+ul.epList {
+  display: grid;
+  gap: 1ch;
+  list-style-type: none;
+  padding: 0.25rem;
+}
+.epList li {
+  padding: 1ch;
+  border: 1px solid #ccc;
+}
+.epList li:hover {
+  cursor: pointer;
+  font-style: italic;
+}
+
+.details button {
+  padding: 1ch;
+  border: 1px solid #fff;
+  width: 100%;
+  background-color: lightgray;
+}
+.details button:hover {
+  background-color: gray;
+}
